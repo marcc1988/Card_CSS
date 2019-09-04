@@ -1,0 +1,135 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Riboti", "Open Sans", sans-serif;
+  margin: 50px;
+  font-size:10px;
+}
+
+.card {
+position: relative;
+width:300px;
+height: auto;
+background-color: #ffffff;
+padding-top:5px;
+padding-bottom:5px;
+border: 1px solid #c0c0c0;
+border-radius: 10px;
+box-shadow: 3px 2px 3px #778887;
+
+}
+
+.card_header
+{
+    height:50px;
+    width:auto;
+    margin-left:20px;
+    margin-right:20px;
+    padding-top:10px;
+}
+
+.card_icons 
+{
+    width:30px;
+    height:30px;
+    font-size:20px;
+    text-align:center;
+    line-height:25px;
+    margin-right:20px;
+    color: #fffff2;
+    float:left;
+    background-color:#d00000;
+    border-radius:50%;
+}
+
+.food_name
+{
+    width:180px;
+    height:30px;
+    font-size:14px;
+    float:left;
+    display:inline-block;
+}
+
+.date
+{
+   font-size: 10px;
+   color:#c0c0c0; 
+}
+.card_icon_s
+{
+    float:right;
+    width:20px;
+    height:20px;
+    position:relative;
+    text-align:center;
+    padding: 3px;
+}
+
+.card_icon_s:hover
+{
+    background-color:#c0c0c0;
+    border-radius:50%;
+    cursor:pointer;
+}
+
+.card_icon_s:active
+{
+    background-color:#c0c0c0;
+}
+
+.card_intro
+{
+    height:250px;
+    width:300px;
+}
+.pic
+{
+    height:200px;
+    width:300px;
+    background-size:cover;
+    background-position:center;
+    background: url(https://img.taste.com.au/khmxuX4n/w720-h480-cfill-q80/taste/2017/03/onepan-prawn-chor-paella-125252-1.jpg)
+}
+
+.card_intro p{
+    text-align: center;
+    width:250px;
+    right:25px;
+    left:25px;
+    position:relative;
+    font-size:12px;
+    color:#c0c0c0;
+}
+
+.card .card_tailer
+{
+    margin: 5px 15px 15px 15px;
+}
+
+.card_tailer .like
+{
+    font-size:20px;
+    color: #c0c0c0;
+    cursor:pointer;
+
+}
+
+.like:hover
+{
+    color:red;
+}
+
+
+.click_to
+{
+    width:20px;
+    height:20px;
+}
